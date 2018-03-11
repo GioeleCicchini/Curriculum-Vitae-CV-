@@ -51,6 +51,7 @@
 \address{Via 1799 Repubblica Vastese 4 , Vasto(CH), Italy }
 \mobile{(+39) 3284533133}
 
+
 \email{gioele.cicchini@gmail.com}
 %\homepage{www.posquit0.com}
 \github{GioeleCicchini}
@@ -58,7 +59,7 @@
 \skype{cigio2008}
 %\stackoverflow{SOid}{SOname}
 %\twitter{@twit}
-%\linkedin{linkedin name}
+\linkedin{gioele-cicchini}
 %\reddit{reddit account}
 %\xing{xing name}
 %\extrainfo{test} % Other text you want to include on this line
@@ -72,7 +73,15 @@
 
 \begin{document}
 
-\makecvheader % Print the header
+\begin{tabular}{cc}
+    \includegraphics[width=5cm]{MioProfilo.png} \\
+	\makecvheader \\
+\end{tabular}
+
+
+
+ % Print the header
+
 
 %----------------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
@@ -81,9 +90,11 @@
 
 \input{cv-sections/education.tex}
 \input{cv-sections/skills.tex}
+\newpage
 \input{cv-sections/experience.tex}
 
 %\newpage % Force a new page for looks
+\newpage
 \input{cv-sections/honors.tex}
 \input{cv-sections/extracurricular.tex}
 \input{cv-sections/Organizational_and_management_skills.tex}
